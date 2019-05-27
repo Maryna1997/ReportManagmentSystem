@@ -1,0 +1,118 @@
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+select {
+  border: none;
+  align: center;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#zvit {
+  margin: 25px auto;
+  width: 500px;
+ 
+ }
+
+#zvit form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
+}
+#zvit form input[type="text"] {
+  background-color: #ffffff;
+  border: 2px solid #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: black;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 200px;
+  height: 30px;
+  }
+  
+  #zvit form input[type="text"]:focus {
+  background-color: #00008B;
+  border: 2px solid #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: #ffffff;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 164px;
+  height: 30px;
+  }
+  
+  #zvit form select {
+  background-color: #ffffff;
+  border: 2px solid #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: black;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 400px;
+  height: 30px;
+  } 
+  
+  #zvit form select:focus {
+  background-color: #00008B;
+  border: 2px solid #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: #ffffff;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 400px;
+  height: 30px;
+  } 
+  
+
+#zvit form input[type="button"] {
+  margin-left:100px;
+  background: #00008B;
+  border: 2px solid #ffffff;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#zvit form input[type="button"]:hover {
+  border: 2px solid #00008B;
+  background: #ffffff;
+   color: #00008B;
+}
+
+#zvit form input[type="submit"] {
+	display: none;
+  margin-left:100px;
+  background: #00008B;
+  border: 2px solid #ffffff;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#zvit form input[type="submit"]:hover {
+  border: 2px solid #00008B;
+  background: #ffffff;
+   color: #00008B;
+}

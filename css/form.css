@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#login {
+  margin: 25px auto;
+  width: 320px;
+ }
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
+}
+
+#login form span {
+  background-color: #00008B;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #ffffff;
+  display: block;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+  width: 50px;
+  height: 40px;
+}
+
+#login form input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 0px 3px 3px 0px;
+  color: black;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 260px;
+  height: 40px;
+  }
+  
+  #login form input[type="text"]:focus {
+  background-color: #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: #ffffff;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 260px;
+  height: 40px;
+  }
+
+  #login form input[type="password"] {
+  background-color: #ffffff;
+  border-radius: 0px 3px 3px 0px;
+  color: black;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 260px;
+  height: 40px;
+}
+
+  #login form input[type="password"]:focus {
+  background-color: #00008B;
+  border-radius: 0px 3px 3px 0px;
+  color: #ffffff;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 260px;
+  height: 40px;
+  }
+
+#login form input[type="submit"] {
+   background: #00008B;
+  border: 2px solid #ffffff;
+  width: 320px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  border: 2px solid #00008B;
+  background: #ffffff;
+   color: #00008B;
+}
+
+#logout {
+  position:absolute;	
+  top:15px;
+  left:600px;
+  border: 2px solid #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  color: white;
+   
+}

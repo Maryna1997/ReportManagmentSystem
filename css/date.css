@@ -1,0 +1,32 @@
+#calendar {
+  width: 100%;
+  font: Arial;
+  line-height: 1.2em;
+  font-size: 17px;
+  text-align: center;
+  color: #00008B;
+  }
+  
+#calendar thead tr:last-child {
+  font-size: small;
+  color: #ffffff;
+  
+}
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+  color: #ffffff;
+  font-size:20px;
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover, #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+#calendar tbody td {
+  color: #ffffff;
+  }
+#calendar tbody td:nth-child(n+6), #calendar .holiday {
+  color: red;
+}
+#calendar tbody td.today {
+  
+  background: #00008B;
+  color: #ffffff;
+}
